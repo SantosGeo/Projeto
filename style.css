@@ -1,0 +1,995 @@
+body,html{
+    
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: navajowhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h1{
+    
+    color: navajowhite;
+    padding-bottom: 1rem;
+    margin-left: 1.2rem;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    margin-top: 3rem;
+    
+}
+
+
+
+main{
+    
+    border-top-style:outset;
+    border-top-color: saddlebrown;
+    background-color: saddlebrown;
+    
+}
+
+#pesquisar{
+    
+    margin-left: 31rem;
+    width: 17rem;
+    height: 1.8rem;
+    margin-top: 4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size:smaller;
+    text-align: center;
+}
+
+#favoritos{
+    
+    margin-left: 59rem;
+    display: flex;
+    margin-top: -2.1rem;
+}
+
+#favoritos img{
+    
+    margin-left: -4.3rem;
+}
+
+#favoritos a{
+    
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+#favoritos a:hover{
+    color: navajowhite;
+}
+
+
+#minhaconta{
+    
+    margin-left: 65.5rem;
+    display:flex;
+   
+}
+
+#minhaconta a{
+    
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+#minhaconta a:hover{
+    
+    color:navajowhite;
+}
+
+#minhaconta img{
+    
+    margin-left: -6rem;
+}
+
+
+#carrinho{
+    
+    margin-left: 78rem;
+    margin-top: -2.4rem;
+}
+
+#busca{
+    
+    margin-left: 32.2rem;
+    margin-top: -1.4rem;
+    padding-bottom: 3rem
+}
+
+
+
+
+nav{
+    
+    margin-top: -2.1rem;
+}
+
+.menu ul{
+    
+    list-style-type: none;
+    padding: 0;
+    background-color: dimgrey;
+    
+}
+
+
+
+
+.menu ul li{
+    display: inline;
+    position: relative;
+    margin-left: 1.7rem;
+}
+
+.menu ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.8rem;
+    transition: background 0.4s;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:oblique;
+}
+
+.menu ul li a:hover{
+
+    background-color: greenyellow;
+    
+}
+   
+.menu ul ul{
+    display: none;
+    left:0;
+    position: absolute;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+.menu ul ul{
+
+    width: 11rem;
+    margin-left: -1.7rem;
+    text-align: center;
+}
+
+.menu ul ul li a{
+    display: block;
+}
+
+
+
+
+#imagem{
+    
+margin-left: 46.8rem;
+margin-top: -1rem;
+}
+
+#titulo{
+    
+    margin-top: -24.8rem;
+    text-align: center;
+    font-style:oblique;
+    flow-into: none;
+    font-size: 1.8rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkred;
+    text-emphasis-style: open;
+    margin-left: 15.5rem
+}
+
+
+
+div p{
+    
+    margin-left: 1.2rem;  
+    display:block;
+    margin-top: 1.8rem;
+    font-family:cursive;
+    font-size: 0.9rem;
+    color: darkslategrey;
+    font-weight: bold;
+    
+}
+
+div{
+    
+    
+    width: 37.5rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+
+
+.contatos{
+    
+    background-color: dimgray;
+   
+}
+
+#insta{
+    
+    margin-left: 36.3rem;
+}
+
+#face{
+    
+    margin-left: 39.9rem;
+    margin-top: -3rem;
+}
+
+#yout{
+    
+    margin-left: 43rem;
+    margin-top: -2.5rem;
+}
+
+#linkedin{
+    
+    margin-left: 46.4rem;
+    margin-top: -2.7rem;
+}
+
+#twitter{
+    
+    margin-left: 49.6rem;
+    margin-top: -2.5rem
+}
+
+
+
+
+#laco img{
+    
+    margin-left: 25.5rem;
+    margin-top: 10rem;
+}
+
+#laco2 img{
+    
+    margin-left: 49rem;
+    margin-top: -2.5rem;
+}
+
+#encomenda{
+    
+    margin-left: 24.3rem;
+    font-size: 1.6rem;
+    margin-top: -4.9rem;
+    color: darkred;
+}
+
+#bolo img{
+    
+    margin-left: -0.9rem;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin-top:2rem;
+    
+}
+
+#torta img{
+    
+    margin-left: 19.7rem;
+    margin-top:-13.5rem;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    
+}
+
+#tortadoce img{
+    
+    margin-left: 39.6rem;
+    margin-top: -14.5rem;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    
+}
+
+#biscoito img{
+    
+    margin-left: 60.4rem;
+    margin-top: -15.7rem;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#whats img{
+    
+    padding-left: 36.3rem;
+    margin-top: -2.5rem;
+}
+
+h2{
+    
+    margin-top: 14rem;
+    margin-left: 24.1rem;
+    font-size: 1.6rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    
+}
+
+
+
+
+#email h4{
+    
+    margin-left: -31.2rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+
+#email input{
+    
+    margin-top: -1rem;
+    margin-left: -16.7rem;
+    width: 18rem;
+    
+    
+    
+}
+
+#senha input{
+    
+    margin-top: -1rem;
+    margin-left: -16.7rem;
+    width: 18rem;
+}
+
+#senha h5{
+    
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-left: -31.7rem;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+#lembrarlogin h5{
+    
+    margin-left: -28.4rem;
+    font-size: 0.8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+#lembrarlogin input{
+    
+    height: 0.7rem;
+    margin-left: -33.7rem;
+    margin-top: -2.2rem;
+}
+
+
+
+#acesso{
+    margin-left: 8rem;
+    margin-top: -6rem;
+    width: 10rem;
+    background-color: sandybrown;
+    font-size: 0.9rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    margin-left: 36.8rem
+    
+}
+
+#novasenha li{
+    
+    margin-top: -9.3rem;
+    margin-left: 25.8rem;
+    list-style-type: none;
+    font-size: 0.8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    
+}
+
+#cad li{
+    
+    margin-top: 5.3rem;
+    margin-left: 37.4rem;
+    font-size: 0.8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    list-style-type: none
+    
+}
+
+
+.login{
+    
+    border-bottom-style:inset;;
+    border-top-style: inset;;
+    border-left-style: inset;;
+    border-right-style:inset;
+    margin-left: 1.2rem;
+    border-right-color: darkgrey;
+    border-left-color: darkgrey;
+    border-top-color: darkgrey;
+    border-bottom-color: darkgrey;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    padding-bottom: 9rem;
+    margin-top: 0.5rem;
+    margin-left: 24rem;
+
+    
+}
+
+
+.cadastro{
+    
+    border-bottom-style:inset;;
+    border-top-style: inset;;
+    border-left-style: inset;;
+    border-right-style:inset;
+    margin-left: 1.2rem;
+    border-right-color: darkgrey;
+    border-left-color: darkgrey;
+    border-top-color: darkgrey;
+    border-bottom-color: darkgrey;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    padding-bottom: 9rem;
+    margin-top: 15rem;
+    margin-left: 2rem
+}
+
+h3{
+    
+    margin-left: -29.5rem;
+    margin-top: -4rem;
+    font-size: 1.6rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+#usuario h5{
+    
+    margin-top: 4rem;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    margin-left: -27rem;
+}
+
+#usuario input{
+    
+    margin-left: -21.5rem;
+    margin-top: -1rem;
+    width: 13rem;
+}
+
+#meuemail h4{
+    
+    margin-left: -31.7rem;
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    
+}
+
+#meuemail input{
+    
+    margin-left: -21.5rem;
+    margin-top: -1rem;
+    width: 13rem;
+}
+
+#senha1 h6{
+    
+    margin-left: -31.6rem;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    margin-top: 2.5rem;
+    
+}
+
+#senha1 input{
+    
+    margin-left: -21.5rem;
+    margin-top: -1.5rem;
+    width: 13rem;
+}
+
+#confirma h6{
+    
+    margin-left: -27.4rem;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    margin-top: 2.5rem;
+}
+
+#confirma input{
+    
+    margin-left: -21.5rem;
+    width: 13rem;
+    margin-top: -1.5rem;
+}
+
+#cadastrar{
+    
+    
+    margin-left: 13.5rem;
+    margin-top: -4rem;
+    width: 13.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size: 1rem;
+    background-color: sandybrown;
+    font-weight: bold;
+    
+}
+
+.recsenha h3{
+    
+    margin-left: 5rem;
+    display:flex;
+    margin-top: 14rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.9rem;
+    color:darkslategrey;
+    font-weight: bold;
+    border-bottom-style:inset;
+    border-bottom-color: darkslategrey;
+    padding-bottom: 1.9rem;
+    
+}
+
+
+
+#infosenha h6{
+    
+    margin-top: 4.8rem;
+    margin-left: 4.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+    
+}
+
+#nome input{
+    
+    margin-left: 5.4rem;
+    width: 23rem;
+    margin-top: 0.1rem;
+}
+
+#enviar{
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+    background-color: darkgrey;
+    font-weight: bold
+}
+
+
+@media screen and (min-width: 600px){
+
+    *{
+        
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    
+    #imagem{
+        
+        display: none;
+    
+    }
+    
+    
+    
+    #titulo{
+        
+        margin-top: 17rem;
+        margin-left: 35rem;
+        
+    }
+    
+    #titulo h3{
+        
+        font-size: 4.5rem;
+    
+    }
+    
+    
+    
+    .introducao{
+
+        margin: 0 auto;
+        display: inline;
+    }
+    
+    .introducao p{
+        
+        font-size: 1.3rem;
+        margin-top: 3rem;
+        margin-right: 2rem;
+    }
+    
+    #laco img{
+        
+        margin-left: -10rem;
+        margin-bottom: 1.2rem;
+        width: 9rem;
+        
+    }
+    
+    #encomenda{
+        
+        
+        margin-top: -4.8rem;
+    }
+    
+    #encomenda h5{
+        
+        margin-left: -6rem;
+        font-size: 4rem;
+    }
+    
+    #laco2 img{
+        
+        margin-left: 62.8rem;
+        margin-top: -3.3rem;
+        width: 9rem;
+    }
+    
+    #biscoito img{
+        
+        margin-left: 15rem;
+        margin-top: 5em;
+        width: 50rem;
+        height: 25rem;
+    }
+    
+    #tortadoce img{
+
+        margin-left: 15rem;
+        margin-top: 5rem;
+        width: 50rem;
+        height: 25rem;
+    }
+    
+    #torta img{
+        
+        margin-left: 15rem;
+        margin-top: 4rem;
+        width: 50rem;
+        height: 25rem;
+    }
+    
+    #bolo img{
+        
+        margin-left: 15rem;
+        margin-top: 10rem;
+        width: 50rem;
+        height: 25rem;
+        
+    }
+    
+    #whats img{
+        
+        margin-left: -2.5rem;
+        margin-top: 20rem;
+        width: 17rem
+    }
+    
+    #pesquisar{
+        
+        margin-left: 13.5rem;
+        font-size: 1.8rem;
+        width: 34rem;
+        margin-top: 8rem;
+    }
+    
+    
+    #busca{
+        
+        margin-left: 14rem;
+    }
+    
+    #busca img{
+        
+        width: 1.2rem;
+    }
+    
+    nav{
+        
+        padding-top: 1.5rem;
+    }
+    
+    #favoritos{
+        
+        margin-left: 43rem;
+        font-size: 1.4rem;
+        margin-top: -2.1rem
+        
+    }
+    
+    #favoritos a{
+        
+        margin-left: 6rem;
+        font-size: 1.9rem;
+        
+        
+    }
+    
+    #favoritos img{
+        
+        margin-left: -9.1rem;
+        width: 1.4rem;
+    }
+    
+    #minhaconta{
+        
+        margin-left: 61.5rem;
+        font-size: 1.4rem;
+    }
+    
+    #minhaconta img{
+
+        margin-top:0.1rem;
+        width: 2rem;
+        margin-left: -7.8rem;
+        padding-bottom: 1.4rem
+    }
+    
+    #minhaconta a{
+        
+        margin-top: -1rem;
+        font-size: 1.9rem;
+        
+    }
+    
+    
+    
+    #carrinho img{
+        
+        margin-left: -10rem;
+        width: 2.2rem;
+        margin-top: -1rem
+
+    }
+    
+    .contatos h6{
+        
+        text-align: center;
+        font-size: 0.9rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: oblique;
+        margin-top: -2rem;
+        
+    }
+    
+    .contatos{
+        
+        margin-top: 40rem;
+        padding-bottom: 4.5rem;
+    }
+    
+   
+    #insta{
+        
+       margin-left: 22rem;
+        margin-top: 0.6rem;
+    }
+    
+    #insta img{
+        
+        width: 5.1rem;
+        margin-top: 1rem
+    }
+    
+    #face{
+        
+      margin-left: 37.5rem;
+        margin-top: -1rem
+        
+    }
+    
+    #face img{
+        
+        width: 3.4rem;
+        margin-top: -3.4rem
+    }
+    
+    #yout{
+        
+       margin-left: 44.5rem;
+        margin-top: -4.6rem;
+        
+    }
+    
+    #yout img{
+        
+        width: 3.8rem;
+        margin-top: 1.1rem;
+    }
+    
+    #linkedin{
+        
+        margin-left: 30.5rem;
+        margin-top: -3.4rem;
+        
+    }
+    
+    #linkedin img{
+        
+        width: 3rem;
+    }
+    
+    #twitter{
+        
+        margin-left: 52rem;
+        margin-top: -2.3rem
+    }
+    
+    #twitter img{
+        
+        width: 3.6rem;
+        margin-top: -1rem
+    
+    }
+    
+    .menu ul li a{
+        
+        font-size: 1.9rem;
+        margin: 0 auto;
+    }
+    
+    .login{
+        
+        margin-left: 14rem;
+        height: 25rem;
+        width: 50rem;
+        margin-top: 3rem;
+    }
+    
+    #novasenha li{
+        
+        margin-left: 17.8rem;
+        font-size: 1.4rem;
+        margin-top: -10.3rem
+        
+    }
+    
+    #acesso{
+        
+        margin-left: 34.5rem;
+        font-size: 1.5rem;
+    }
+    
+    h2{
+        
+        margin-left: 13.4rem;
+        font-size: 3.4rem;
+        margin-top: 25rem;
+    }
+    
+   
+    
+    #email h4{
+        
+        font-size: 2em;
+        margin-left: -38rem;
+    }
+    
+    #email input{
+        
+        margin-left: -19.8rem;
+        margin-top: 1.1rem;
+        height: 2rem;
+        width: 26rem;
+    }
+    
+    #senha h5{
+        
+        font-size: 2rem;
+        margin-left: -39rem;
+        margin-top: 4rem;
+    }
+    
+    #senha input{
+        
+        height: 2rem;
+        width: 26rem;
+        margin-top: 1.5rem;
+        margin-left: -19.3rem
+    }
+    
+    #lembrarlogin h5{
+        
+        font-size: 1.3rem;
+        margin-left: -35rem;
+        margin-top: 2rem;
+    }
+    
+    #lembrarlogin input{
+        
+        margin-left: -43.5rem;
+        margin-top: -10.7rem;
+        height: 20rem;
+    }
+    
+    #cad li{
+        
+        font-size: 1.4rem;
+        margin-left: 31rem;
+        margin-top: 5.5rem;
+    }
+    
+    body{
+        
+        width: 130%;
+        
+    }
+    
+}
+        
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
